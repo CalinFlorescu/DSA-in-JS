@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcb92d42-9ac3-45f0-aa52-eea5d9612433" name="Default Changelist" comment="" />
+    <list default="true" id="fcb92d42-9ac3-45f0-aa52-eea5d9612433" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heap/Heap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../heap/Heap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heap/HeapJUnitTest.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../heap/HeapJUnitTest.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heap/node_modules/.yarn-integrity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../heap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heap/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../heap/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,24 +21,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearchTree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="185" column="12" lean-forward="true" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="12" />
+            <state relative-caret-position="-2">
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
               <folding>
                 <element signature="n#Node#0" />
                 <element signature="n#!!block;n#constructor#0;n#Node#0" />
-                <element signature="n#!!block;n#hasLeft#0;n#Node#0" />
-                <element signature="n#!!block;n#hasRight#0;n#Node#0" />
                 <element signature="n#BST#0" />
                 <element signature="n#!!block;n#constructor#0;n#BST#0" />
                 <element signature="n#!!block;n#insert#0;n#BST#0" />
                 <element signature="n#!!block;n#insertNode#0;n#BST#0" />
                 <element signature="n#!!block;n#search#0;n#BST#0" />
                 <element signature="n#!!block;n#contains#0;n#BST#0" />
-                <element signature="n#!!block;n#delete#0;n#BST#0" />
                 <element signature="n#!!block;n#findNode#0;n#BST#0" />
                 <element signature="n#!!block;n#findParent#0;n#BST#0" />
                 <element signature="n#!!block;n#preorder#0;n#BST#0" />
@@ -40,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BinarySearchTreeJunit.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -53,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,6 +73,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -74,8 +83,8 @@
         <option value="$PROJECT_DIR$/node_modules/BinarySearchTreeJunit.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/BinarySearchTreeJunit.js" />
-        <option value="$PROJECT_DIR$/BinarySearchTree.js" />
         <option value="$PROJECT_DIR$/BinarySearchTreeJunit.test.js" />
+        <option value="$PROJECT_DIR$/BinarySearchTree.js" />
       </list>
     </option>
   </component>
@@ -83,6 +92,7 @@
     <option name="width" value="1280" />
     <option name="height" value="1440" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -103,6 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -135,23 +146,20 @@
       <option name="presentableId" value="Default" />
       <updated>1560237819625</updated>
       <workItem from="1560237822922" duration="23414000" />
+      <workItem from="1560329011651" duration="1321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23414000" />
+    <option name="totallyTimeSpent" value="24735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="2560" height="1442" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-2" width="2560" height="1442" extended-state="7" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="npm" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49933067" visible="true" weight="0.12376823" />
       <window_info id="Structure" order="1" sideWeight="0.50066936" side_tool="true" weight="0.12376823" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30284396" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -159,6 +167,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30331025" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -171,42 +183,39 @@
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearchTreeJunit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearchTree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="185" column="12" lean-forward="true" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="12" />
+        <state relative-caret-position="-2">
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
           <folding>
             <element signature="n#Node#0" />
             <element signature="n#!!block;n#constructor#0;n#Node#0" />
-            <element signature="n#!!block;n#hasLeft#0;n#Node#0" />
-            <element signature="n#!!block;n#hasRight#0;n#Node#0" />
             <element signature="n#BST#0" />
             <element signature="n#!!block;n#constructor#0;n#BST#0" />
             <element signature="n#!!block;n#insert#0;n#BST#0" />
             <element signature="n#!!block;n#insertNode#0;n#BST#0" />
             <element signature="n#!!block;n#search#0;n#BST#0" />
             <element signature="n#!!block;n#contains#0;n#BST#0" />
-            <element signature="n#!!block;n#delete#0;n#BST#0" />
             <element signature="n#!!block;n#findNode#0;n#BST#0" />
             <element signature="n#!!block;n#findParent#0;n#BST#0" />
             <element signature="n#!!block;n#preorder#0;n#BST#0" />
             <element signature="n#!!block;n#postorder#0;n#BST#0" />
             <element signature="n#!!block;n#inorder#0;n#BST#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearchTreeJunit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>

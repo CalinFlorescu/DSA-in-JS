@@ -6,19 +6,11 @@ class Node {
     }
 
     hasLeft() {
-        if(this.left === null) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.left === null;
     }
 
     hasRight() {
-        if(this.right === null) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.right === null;
     }
 }
 

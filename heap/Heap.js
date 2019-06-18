@@ -1,4 +1,4 @@
-export class Heap {
+class Heap {
 
     constructor () {
         this.heap = [];
@@ -86,7 +86,7 @@ export class Heap {
             while (start < this.count && start < end) {
                 if (value === this.heap[start]) {
                     return true;
-                } else if (value > this.parent(this.heap[start]) && value < heap[start]) {
+                } else if (value > this.parent(this.heap[start]) && value < this.heap[start]) {
                     cont++;
                 }
                 start++;
@@ -101,26 +101,28 @@ export class Heap {
     }
 }
 
-const heap = new Heap();
-
-heap.add(3);
-console.log(heap.heap);
-
-heap.add(9);
-console.log(heap.heap);
-
-heap.add(12);
-console.log(heap.heap);
-
-heap.add(7);
-console.log(heap.heap);
-
-heap.add(1);
-console.log(heap.heap);
-
-heap.remove(12);
-
-
-console.log(heap.search(12));
+// const heap = new Heap();
+//
+// heap.add(3);
 // console.log(heap.heap);
+//
+// heap.add(9);
+// console.log(heap.heap);
+//
+// heap.add(12);
+// console.log(heap.heap);
+//
+// heap.add(7);
+// console.log(heap.heap);
+//
+// heap.add(1);
+// console.log(heap.heap);
+//
+// heap.remove(12);
+//
+//
+// console.log(heap.search(12));
 
+module.exports = {
+    heap: Heap
+};
