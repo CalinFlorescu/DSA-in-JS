@@ -250,3 +250,8 @@ class AVL {
 // console.log(avl.remove(4));
 // console.log(JSON.stringify(avl, null, 2));
 // console.log(avl.root.height);
+
+module.exports = {
+    node: Node,
+    avl: AVL
+};
